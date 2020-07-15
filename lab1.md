@@ -29,7 +29,7 @@ All places wehre `basic-pod` is used in this lab I want you to use your pod name
 
 ## **Step 2** -
 
- For *each* command described below I would like you follow the example for each command and take screenshot of the terminal. Save the picture with the format <command_name>_<picture number>. 
+ For *each* command described below I would like you follow the example for each command and take screenshot of the terminal. Save the picture with the format <command_name>_number. 
 
 So for the `kubectl create` example - the file name would be `create_1.ext` where ext is whatever format your computer saves it as. If there are multiple commands save them sequentially `create_2.ext` and `create_3.ext`  ect..
 
