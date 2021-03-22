@@ -13,6 +13,8 @@ For this lab, you will gain hands-on experience using kubectl and minikube. We w
 ---
 ## Getting Started:
 
+MAKE SURE TO HAVE GONE THROUGH THE ENV_SETUP.md
+
 1 - Copy the starter code from here into a new, private repository in your personal GitHub account. When adding a collaborator, be sure to add me ("cscc-luke-rouker").
 
 ---
