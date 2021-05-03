@@ -44,6 +44,8 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s http
 
 ```
 sudo mv ./kubectl /usr/local/bin/kubectl
+chmod +x /usr/local/bin/kubectl
+
 ```
 3- verify
 ```
@@ -63,6 +65,10 @@ Client Version: version.Info{Major:"1", Minor:"18", GitVersion:"v1.18.4", GitCom
 
 ## verify minikube installation
 
+0- run the following start your minikube:
+```
+minikube start
+```
 
 1- run the following to get the status
 
@@ -75,15 +81,16 @@ minikube status
 minikube stop
 ```
 
-3- run the following restart your minikube:
+3-  finally delete the minikube instance with:
+```
+minikube delete
+```
+
+4- run the following restart your minikube:
 ```
 minikube start
 ```
 
-4-  finally delete the minikube instance with:
-```
-minikube delete
-```
 
 
 
